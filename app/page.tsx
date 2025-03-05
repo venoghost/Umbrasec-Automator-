@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gradient-to-b from-gray-900 to-black text-white">
-      <h1 className="text-5xl font-bold mb-6">Welcome to NetSentry</h1>
+      <h1 className="text-5xl font-bold mb-6">Welcome to Umbrasec Automater</h1>
       <p className="text-xl mb-8 text-center max-w-2xl">
         Discover vulnerabilities, scan networks, and secure your digital assets with our advanced cybersecurity tool.
       </p>
