@@ -50,7 +50,7 @@
     "aframe": "^1.7.0",
     "aframe-extras": "^7.5.4",
     "autoprefixer": "^10.4.20",
-    "axios": "^1.8.1",
+    "axios": "^1.8.2",
     "bcryptjs": "latest",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
