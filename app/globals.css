@@ -46,7 +46,4 @@
   --ring: 252 100% 67%;
 }
 
-body {
-  @apply bg-background text-foreground;
-}
 
