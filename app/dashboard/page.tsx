@@ -101,7 +101,7 @@ export default function Home() {
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Enter IP or Domain (e.g., example.com)"
+          placeholder="Enter IP or Domain"
           className="flex-1 px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500 transition"
         />
         <button
@@ -239,7 +239,7 @@ export default function Home() {
             )}
           </Section>
 
-          <Section title="Web Vulnerabilities">
+          <Section title="Vulnerabilities">
             {typeof result.webVulns === "object" && Object.keys(result.webVulns).length > 0 ? (
               <ul className="list-disc pl-5 space-y-2 text-sm">
                 {Object.entries(result.webVulns).map(([key, details]: [string, any]) => (
