@@ -6,7 +6,7 @@ import { Providers } from "./providers"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "NetSentry",
+  title: "Umbrasec Automater",
   description: "Network scanning and security tool",
     generator: 'v0.dev'
 }

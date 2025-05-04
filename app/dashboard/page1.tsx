@@ -68,7 +68,7 @@ export default function Dashboard() {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-6">NetSentry Dashboard</h1>
+      <h1 className="text-3xl font-bold mb-6">Umbrasec Automater</h1>
       <Card className="mb-6">
         <CardContent className="pt-6">
           <Input
