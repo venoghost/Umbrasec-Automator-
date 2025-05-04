@@ -1,3 +1,4 @@
+
 "use client";
 import { useState, useRef, useEffect } from "react";
 import axios from "axios";
@@ -157,7 +158,7 @@ export default function Dashboard() {
       <div className="absolute inset-0 bg-grid-pattern opacity-10 pointer-events-none" />
 
       <h1 className="text-6xl font-extrabold mb-12 text-center tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-500 animate-glow">
-        Umbrasec CyberScan
+        UmbrasecAutomater
       </h1>
 
       <form onSubmit={handleScan} className="flex flex-col sm:flex-row gap-4 w-full max-w-3xl bg-gray-800/80 backdrop-blur-md rounded-2xl p-6 border border-cyan-500/50 shadow-lg shadow-cyan-500/20 transition-all duration-500 hover:shadow-cyan-500/40">
